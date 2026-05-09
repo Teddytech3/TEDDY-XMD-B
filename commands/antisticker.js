@@ -9,8 +9,8 @@ async function antistickerCommand(sock, chatId, msg, senderId) {
       key: { participants: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.net", fromMe: false },
       message: {
         contactMessage: {
-          displayName: "JUNE-X",
-          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:JUNE-X\nTEL;waid=${id}:${id}\nEND:VCARD`
+          displayName: "TEDDY-XMD",
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: TEDDY-XMD\nTEL;waid=${id}:${id}\nEND:VCARD`
         }
       },
       participant: "0@s.whatsapp.net"
